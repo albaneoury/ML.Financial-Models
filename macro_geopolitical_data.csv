@@ -1,0 +1,6 @@
+indicator_code,label,date,value,source
+FEDFUNDS,Taux directeur (Fed Funds Rate),2025-03-01,4.33,FRED
+CPIAUCNS,"Inflation (CPI, USA)",2025-02-01,319.082,FRED
+UNRATE,Taux de chômage (USA),2025-03-01,4.2,FRED
+DGS10,Taux obligataire 10 ans (USA),2025-04-08,4.26,FRED
+GDP,PIB USA,2024-10-01,29723.864,FRED
