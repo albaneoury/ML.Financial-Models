@@ -12,6 +12,7 @@ indicators = {
     "UNRATE": "Taux de chômage (USA)",
     "DGS10": "Taux obligataire 10 ans (USA)",
     "GDP": "PIB USA",
+    
 }
 
 # --- Requête et collecte ---
@@ -40,3 +41,4 @@ for code, label in indicators.items():
 df = pd.DataFrame(data)
 df.to_csv("macro_geopolitical_data.csv", index=False)
 print("✅ Données macro sauvegardées dans macro_geopolitical_data.csv")
+
