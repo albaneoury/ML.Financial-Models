@@ -68,6 +68,10 @@ Un quatrième module `decision_investissement.py` combinera les trois notes pour
 
 Ce projet est en cours de développement. Certaines fonctionnalités (scraping avancé, API sociales et presse) peuvent nécessiter des contournements techniques ou un passage à des solutions payantes / semi-automatisées.
 
+interface_graphique.py : 
+-Interface graphique du logiciel sur Streamlit.
+-Avant de lancer cette page, nous vous recommandons de télécharger les datasets : ‘AAPL - Données Historiques.csv’ ; ‘AMZN - Données Historiques.csv’ ; ‘GOOG - Données Historiques.csv’ - ‘MSFT - Données Historiques.csv’ ; ‘TSLA - Données Historiques.csv’ ; ‘news_articles_2025-05-06.csv’.
+-Problème connu : Bloquage des requêtes par l’API YFinance nécessitant un téléchargement des datasets en interne avant de lancer le logiciel.
 ---
 
 ## Contact
